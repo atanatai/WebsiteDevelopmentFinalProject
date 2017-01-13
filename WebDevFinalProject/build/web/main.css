@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 1, 2016, 12:23:46 PM
+    Author     : Atan
+*/
+
+            p {
+                font-family: "Times New Roman";
+                font-weight: bold
+            }
+            
+            body{
+                padding:0;
+                margin:0;
+            }
+            a{
+                color: inherit;
+                text-decoration: none;
+            }
+            .tableText{
+                color: inherit;
+                text-decoration: none;
+            }
+            iframe{
+                border:none
+            }
+            table{
+                margin: 0 auto;
+            }
+            th{
+                text-align: left;
+                font-family: sans-serif;
+                font-weight: bold;
+                color: #dd5;
+                letter-spacing: .5px;
+                
+                padding-bottom:15px;
+            }
+            
+            td{
+                text-align: left;
+                font-family: sans-serif;
+                color: azure;
+                padding-top:5px;
+                padding-bottom: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            #rcorners1 {
+                border-radius: 25px;
+                background: #34495E;
+                padding: 20px; 
+                margin: auto;
+            }
+            
+            #rcorners2 {
+                text-align: left;
+                border-radius: 25px;
+                color: #34495E;
+                padding: 20px;
+            }
+            
+            #center{
+                margin: auto;
+            }
+            
+            .alignRight{
+                text-align: right;
+            }
+            #section {
+                border-radius: 25px;
+                width:500px;
+                color:#34495E;
+                background-color:lemonchiffon;
+                text-align:center;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-left:6em; 
+                margin-right:6em;
+            }
+            
+            .darkBanner{
+                background-image: -webkit-linear-gradient(#34495E, #486684, #34495E);
+                color: aliceblue;
+                font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+                left:0px;
+                right:0px;
+                padding-top:1px;
+                padding-bottom:1px;
+                margin:2px;
+                width: 100%;
+                margin: 0px;
+                font-weight: bold;
+                font-size: 150%;
+            }
+            
+            .general{
+                color:#34495E;
+                background-color: aliceblue;
+                text-align:center;
+            }
+            
+            .topRight{
+                position: fixed;
+                top: 4px;
+                right: 4px;
+                padding: 1px;
+                color: #34495E
+            }
+            
+            .topLeft{
+                position: fixed;
+                top: 5px;
+                left: 5px;
+                color: #34495E
+            }
+                
+            .form{
+                color:#dd5;
+                font-family:sans-serif;
+                font-size:200%;
+                width: 500px;
+                margin-left:3em; 
+                margin-right:3em;
+                border-radius: 25px;
+            }
+            .smallerSize{
+                font-size: 60%
+            }
+            
+            #plainfont{
+                color:black;
+            }
+            
+            .indent{
+                margin-left:1em;              
+            }
+            
+            #heading{
+                color:darkred;
+                font-weight: bold;
+                font-size: 100%;
+            }
+            
+            #footer{
+                font-size: 50%;
+                text-align: left;
+                color: black;
+                position:fixed;
+                bottom:2px;
+                left:2px;
+                right:2px;
+                margin-bottom:0px;
+            }
+            .button {
+                background-color: #34495E;
+                border: none;
+                color: azure;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 12px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            input[type=submit] {
+                padding: 5px 15px; 
+                background: #34495E; 
+                color: azure;
+                border-color: azure;
+                cursor:pointer;
+                -webkit-border-radius: 5px;
+                border-radius: 5px; 
+                font-weight: bold;
+            }
